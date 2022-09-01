@@ -81,7 +81,7 @@ def my_config():
 
     if model_tag == 'MAML':
         config['model_ids'] = {1:1, 2:2, 10:3, 50:4}
-        config['model_path'] = os.path.join('MAML_intermediate_model', 'artifacts',\
+        config['model_path'] = os.path.join('MAML_Training', 'artifacts',\
                 str(config['model_ids'][config['dim']]), 'model.pt')
 
     if run_tag == 'dim': 
