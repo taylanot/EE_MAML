@@ -33,7 +33,7 @@ def my_config():
     
     res = 50               # Resolution of the experiments!
 
-    res_hyper = 10         # Resolution of the hypers!
+    res_hyper = 20         # Resolution of the hypers!
 
     seed = 24               # KOBEEEEEE!
 
