@@ -55,8 +55,8 @@ def my_config():
     if run_tag == 'b':
         config['b'] = np.linspace(1,5, res).tolist()
 
-    config['Na'] = 10
-    config['Nz'] = 10
+    config['Na'] = 100
+    config['Nz'] = 100
 
     config['std_y'] = 1
     if run_tag == 'std_y':
